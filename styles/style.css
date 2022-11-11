@@ -1,0 +1,216 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    padding: .5rem 1rem;
+    background: #2c3e50;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.btn:hover {
+    color: white;
+    background: #3c536b;;
+}
+
+/* Nav */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background: #2c3e50;
+    font-family: 'Open Sans', sans serif;
+    font-weight: bold;
+}
+
+nav li {
+    padding: 1em;
+}
+
+nav  a {
+    text-decoration: none;
+    color: #95a5a6;
+}
+
+nav a:hover {
+    color: #7f8c8d;
+}
+
+/* Header */
+body > header {
+    height: 300px;
+    background: url(../images/gm-efc0f2d1-dbbc-472a-9747-bdcbbd8cc27f-specs1-483378.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: #fff;
+    width: 30%;
+    height: 100%;
+    font-family: 'Open Sans', sans serif;
+    font-weight: bold;
+}
+
+#header-content h1 {
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 3.4em;
+}
+
+#header-content h2 {
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.read-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background: #3c536b;
+    color: #95a5a6;
+}
+
+.read-more:hover {
+    color: #bececf;
+    background: #34485f;;
+    transition: .25s;
+}
+
+/* Main Content*/
+.post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border: 1px solid black;
+    font-family: 'Poppins', sans serif;
+}
+
+.post .post-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans serif;
+}
+
+.post .post-heading span {
+    color: #eb2f06
+}
+
+.post .post-heading h3 {
+    font-size: 2.4rem;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+
+.post .post-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.post .post-container .post-box {
+    width: 350px;
+    background: whitesmoke;
+    border: 1px, solid, black;
+    margin: 20px;
+}
+
+.post-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.post-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-fit: center;
+    margin: 10px;
+}
+
+.post-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.post-text span {
+    color: #eb2f06;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.post-text .post-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+
+.post-text .post-title:hover {
+    color: #eb2f06;
+    transition: all ease 0.3s;
+}
+
+.post-text p {
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+
+.post-read-more {
+    display: flex;
+    justify-content: right;
+}
+
+.post-read-more:hover {
+    color: #eb2f06;
+    transition: all ease 0.3s;
+}
+
+/* Aside */
+aside {
+    order: 1;
+    width: 30%
+}
+
+
+/* Footer */
+footer p {
+    text-align: center;
+    margin-top: 1em;
+}
