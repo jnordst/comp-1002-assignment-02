@@ -106,7 +106,7 @@ body > header {
     font-family: 'Poppins', sans serif;
 }
 
-.post .post-heading {
+.post-heading {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,18 +114,18 @@ body > header {
     font-family: 'Open Sans', sans serif;
 }
 
-.post .post-heading span {
+.post-heading span {
     color: #eb2f06;
     font-weight: 500;
 }
 
-.post .post-heading h3 {
+.post-heading h3 {
     font-size: 2.4rem;
     color: #2b2b2b;
     font-weight: 600;
 }
 
-.post .post-container {
+.post-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,7 +133,7 @@ body > header {
     flex-wrap: wrap;
 }
 
-.post .post-container .post-box {
+.post-box {
     width: 350px;
     background: whitesmoke;
     border-radius: 10px;
@@ -144,7 +144,7 @@ body > header {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .post-image img {
@@ -208,4 +208,110 @@ aside {
 footer p {
     text-align: center;
     margin-top: 1em;
+}
+
+@media(max-width: 1250px){
+    .post-box{
+        width: 300px;
+    }
+}
+
+@media(max-width: 1100px){
+    .post-box{
+        width: 70%;
+    }
+}
+
+@media(max-width: 550px){
+    .post-box{
+        margin: 20px 10px;
+        width: 100%;
+    }
+
+    .post {
+        padding: 20px;
+    }
+}
+
+
+/* About */
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    margin: 20px;
+    width: 100;
+}
+
+.about-box {
+    padding: 40px;
+    border-radius: 10px;
+    background: whitesmoke;
+    font-family: 'Poppins', sans serif;
+    text-align: center;
+    width: 70%;
+}
+
+.about-box h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.about-box h4 {
+    line-height: 1.6;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-social-media {
+    padding: 40px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans serif;
+    text-align: center;
+    width: 80%;
+    margin: 20px;
+    background: whitesmoke;
+}
+
+.contact-social-media h2 {
+    font-size: 2.4rem;
+    line-height: 1.6;
+}
+
+.contact-social-media img {
+    height: 50px;
+    width: auto;
+}
+
+.contact-social-media ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-social-media li {
+    margin: 15px;
+}
+
+.contact-email {
+    padding: 40px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans serif;
+    text-align: center;
+    width: 80%;
+    margin: 20px;
+    background: whitesmoke;
+}
+
+.contact-email h2 {
+    font-size: 2.4rem;
+    line-height: 1.6;
 }
