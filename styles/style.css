@@ -343,6 +343,31 @@ body > header {
     margin-bottom: 20px;
 }
 
+.form-message .read-more {
+    margin-top: 10px;
+}
+
+/* In Progress ------------------------------------------------ */
+
+.in-progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    background: whitesmoke;
+    font-family: 'Poppins', sans serif;
+    padding: 20px;
+}
+
+.in-progress h2 {
+    font-size: 2.4rem;
+    line-height: 1.6;
+    margin: 10px;
+}
 
 
 /* Footer ----------------------------------------------------- */
